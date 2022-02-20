@@ -1,3 +1,13 @@
+#####
+Clone the repository and do npm install and then npm start.
+#OR#
+Visit the website : https://shahreyar-react-redux.netlify.app/
+
+
+And the given API: https://aveosoft-react-assignment.herokuapp.com/products doesn't have any image.
+#####
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
