@@ -1,0 +1,27 @@
+.card-container{
+    width: 200px;
+    height: 200px;
+    background-color: #111827;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    /* cursor: pointer; */
+}
+
+.card-container h1{
+    height: 60px;
+    margin: 20px 0px;
+}
+
+.card-container h3{
+    margin: 10px 0px;
+}
+
+.link-item{
+    text-decoration: none;
+    color: inherit;
+}
+
