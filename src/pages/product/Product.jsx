@@ -16,7 +16,7 @@ const Product = () => {
 
     return (
         <div className="prod-container">
-            <div className="prod-wrapper">
+            <div className="prod-wrapper glow1">
                 <div className="prod-left">
                     Image
                 </div>

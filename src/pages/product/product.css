@@ -11,7 +11,10 @@
     height: 40%;
     display: flex;
     border: none;
+    position: relative;
     border-radius: 10px;
+    background-color: #111827;
+    color: white;
     box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
 }
 
@@ -32,6 +35,38 @@
 
 .prod-right p{
     width: 70%;
+}
+
+.glow1::before,
+.glow1::after{
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(50deg, #e6fb04, #ff6600, #00ff66, #00ffff, #ff00ff, #ff0099, #6e0dd0, #ff3300, #099fff);
+    background-size: 400%;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    z-index: -99;
+    animation: animate 20s linear infinite alternate;
+    border-radius: 10px;
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: 400% 0;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}
+
+.glow1::after{
+    filter: blur(15px);
+    opacity: 0.3;
 }
 
 
