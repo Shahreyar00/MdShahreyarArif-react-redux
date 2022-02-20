@@ -24,7 +24,7 @@ const Product = () => {
                     <h1>Name: {mainItem[0].name}</h1>
                     <h3>Price: {mainItem[0].price}</h3>
                     <p>
-                        Desc: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi adipisci ut magni fugit asperiores perspiciatis, veritatis non consectetur labore et.
+                        Desc: {mainItem[0].description}
                     </p>
                 </div>
             </div>
